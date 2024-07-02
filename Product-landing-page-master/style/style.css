@@ -1,0 +1,316 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#ADD8E6;
+}
+.msg{
+    display: none;
+    padding:50px;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+section{
+    width:100%;
+}
+
+.col-2{
+    flex-basis: 50%;
+    padding:50px;
+}
+.col-3{
+    flex-basis:25%;
+    margin:10px;
+}
+/* =======Nav Section========== */
+    nav{
+        width: 100%;
+        padding: 20px;
+        display:flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+    }
+    .nav-brand{
+        color: #263640;
+        font-size:30px;
+        font-weight:bold;
+    }
+    .nav-menu{
+        display: flex;
+    }
+    .nav-link{
+        padding: 0px 10px;
+        font-size:20px;
+        color: #263640;
+        transition: all 0.5s ease-in-out;
+    }
+    .nav-link:hover{
+        color:#FF9900;
+    }
+    .btn button{
+        padding:5px 20px;
+        background-color:#FF9900;
+        color: #FFFFFF;
+        font-size:16px;
+        border: 1px solid #FF9900;
+        cursor: pointer;
+    }
+/* ===X===Nav Section======X=== */
+
+/* ==========Hero Section========= */
+   .hero{
+       display: flex;
+       padding:50px;
+       align-items: center;
+       justify-content: space-around;
+   }
+   .hero .hero-image img{
+        width: 100%;
+        box-shadow:  0px 0px 10px 10px
+        rgba(0, 0, 0, 0.2);
+   }
+   .hero .content p{
+       color:#929A9F;
+       font-size:16px;
+       padding:5px 0px;
+   }
+   .hero .content h2{
+    color:#263640;
+    font-size:32px;
+    font-weight:bold;
+    padding:5px 0px;
+    }
+    .hero .content button{
+        padding: 10px 20px;
+        margin-top:10px;
+        background-color:#FF9900;
+        color:#FFFFFF;
+        font-size:16px;
+        border:1px solid #FF9900;
+        border-radius:25px;
+        cursor: pointer;
+    }
+/* ======X===Hero Section====X== */
+
+/* ========Artical section==== */
+    .artical{
+        padding:50px;
+    }
+    .artical-headding h2{
+        font-size:32px;
+        color: #263640;
+        text-align: center;
+        padding-bottom:15px;
+    }
+    .artical-headding p{
+        text-align:center;
+        font-size:18px;
+        color: #929A9F;
+
+    }
+    .artical-row{
+        margin-top:50px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .col-3 img{
+        width: 100%;
+    }
+    .artical-details h3{
+        font-size: 20px;
+        color: #263640;
+        padding:10px 0px;
+    }
+    .artical-details p{
+        font-size:16px;
+        color: #929A9F;
+        padding:10px 0px;
+    }
+    .artical-details a{
+        font-size: 16px;
+        color:#FF9900;
+        padding:10px 0px;
+        font-weight:bold;
+    }
+/* ===X====Artical section=X== */
+
+/* ======Next Hero======= */
+    .hero-second{
+        background-color:#263640;
+        padding: 10px 50px;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .hero-second .col-2 img{
+        width: 100%;
+    }
+    .hero-second .col-2 h2{
+        font-size: 32px;
+        color:#FFFFFF;
+        padding:10px 0px;
+    }
+    .hero-second .col-2 p{
+        color:#929A9F;
+        font-size:16px;
+        padding:10px 0px;
+    }
+    .hero-second .col-2 a{
+        color:#FFFFFF;
+        font-size:16px;
+    }
+/* ===X==Next Hero==X==== */
+
+/* ======Info Section======= */
+    .row-info{
+        padding:50px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .row-info .col-2 h2{
+        color:#263640;
+        font-size:32px;
+        padding:10px 0px;
+    }
+    .row-info .col-2 p{
+        color:#929A9F;
+        font-size:18px;
+        padding-bottom: 50px;
+    }
+    .row-info .col-2 a{
+        font-size:20px;
+        color:#929A9F;
+    }
+    .row-info .button{
+        display:flex;
+        justify-content: flex-end;
+    }
+    .row-info button{
+        padding: 10px 20px;
+        background-color:#FF9900;
+        color:#FFFFFF;
+        border: 1px solid #FF9900;
+        font-size:16px;
+        cursor: pointer;
+    }
+    .row-info-user{
+        padding:0px 50px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .row-info-user h3{
+        font-size: 20px;
+        color: #263640;
+        padding:10px 0px;
+    }
+    .row-info-user p{
+        font-size:16px;
+        color: #929A9F;
+        padding:10px 0px;
+    }
+    .row-info-user a{
+        font-size: 16px;
+        color:#FF9900;
+        padding:10px 0px;
+        font-weight:bold;
+    }
+/* ===X==Info Section====X== */
+
+/*==========Hero last=========  */
+    .hero-last{
+        margin-top:50px;
+        background-color:#F5F8FA;
+        padding: 10px 50px;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .hero-last .col-2 img{
+        width: 100%;
+    }
+    .hero-last .col-2 h2{
+        font-size: 32px;
+        color:#263640;
+        padding:10px 0px;
+    }
+    .hero-last .col-2 p{
+        color:#929A9F;
+        font-size:16px;
+        padding:10px 0px;
+    }
+   .hero-last .col-2 button{
+       background-color: #FF9900;
+       color: #FFFFFF;
+       font-size:16px;
+       padding:10px 20px;
+       border: 1px solid #FF9900;
+   }
+/*=====X====Hero last===X=====  */
+
+/* =========Footer========= */
+   .footer-row{
+       margin-top:50px;
+       padding:50px;
+       background-color:#263640;
+       display: flex;
+       align-items: center;
+       flex-wrap: wrap;
+       justify-content: space-between;
+   }
+   .footer-row a{
+       font-size: 32px;
+       color: #FFFFFF;
+   }
+   .footer-row h3,p{
+       color: #FFFFFF;
+       padding:10px 0px;
+   }
+   .copyright{
+       padding:10px;
+       background-color:#263640;
+       text-align: center;
+       border-top: 1px solid #FF9900;
+   }
+   .copyright p a{
+       color:#FF9900;
+   }
+/* ==X======Footer=====X=== */
+
+/* ======Media Query========= */
+@media (max-width: 768px){
+    nav{
+        flex-direction: column;
+    }
+    .nav-menu,.btn{
+        margin-top:20px;
+    }
+    .col-2{
+        padding:0px;
+        margin-top:20px
+    }
+    .hero,.hero-last,.hero-second{
+        flex-direction:column;
+   }
+ 
+}
+@media (max-width:454px){
+    nav,section{
+        display:none;
+    }
+    .msg{
+        display:block;
+    }
+}
